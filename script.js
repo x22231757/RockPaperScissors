@@ -23,26 +23,26 @@ function check(id_name){
 		
 	}else if(userGesture === "Select Paper"){
 		if(computerChoice === 'Rock'){
-			document.getElementById("selection").innerHTML = "You " + userGesture + " Computer Selected Rock: You Won!!"
+			document.getElementById("selection").innerHTML = "You " + userGesture + "! Computer Selected Rock: You Won!!"
 			document.getElementById("selection").innerHTML +="<br></br><button onClick='window.location.href=window.location.href'>Play Again</button>";
 		}else if(computerChoice === 'Paper'){
-			document.getElementById("selection").innerHTML = "You " + userGesture + " Computer Selected Paper: Draw!"
+			document.getElementById("selection").innerHTML = "You " + userGesture + "! Computer Selected Paper: Draw!"
 			document.getElementById("selection").innerHTML +="<br></br><button onClick='window.location.href=window.location.href'>Play Again</button>";
 		}else{
-			document.getElementById("selection").innerHTML = "You " + userGesture + " Computer Selected Scissors: You Lost!"
+			document.getElementById("selection").innerHTML = "You " + userGesture + "! Computer Selected Scissors: You Lost!"
 			document.getElementById("selection").innerHTML +="<br></br><button onClick='window.location.href=window.location.href'>Play Again</button>";
 		}
 		
 		
 	}else{// user selects scissors
 		if(computerChoice === 'Rock'){
-			document.getElementById("selection").innerHTML = "You " + userGesture + " Computer Selected Rock: You Lost!"
+			document.getElementById("selection").innerHTML = "You " + userGesture + "! Computer Selected Rock: You Lost!"
 			document.getElementById("selection").innerHTML +="<br></br><button onClick='window.location.href=window.location.href'>Play Again</button>";
 		}else if(computerChoice === 'Paper'){
-			document.getElementById("selection").innerHTML = "You " + userGesture + " Computer Selected Paper: You Won!"
+			document.getElementById("selection").innerHTML = "You " + userGesture + "! Computer Selected Paper: You Won!"
 			document.getElementById("selection").innerHTML +="<br></br><button onClick='window.location.href=window.location.href'>Play Again</button>";
 		}else{
-			document.getElementById("selection").innerHTML = "You " + userGesture + " Computer Selected Scissors: Draw!"
+			document.getElementById("selection").innerHTML = "You " + userGesture + "! Computer Selected Scissors: Draw!"
 			document.getElementById("selection").innerHTML +="<br></br><button onClick='window.location.href=window.location.href'>Play Again</button>";
 		}
 		
